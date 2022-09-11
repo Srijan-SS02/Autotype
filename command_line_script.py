@@ -5,6 +5,7 @@ from typing import Optional
 from Simulator import Type
 import time
 
+x="Testing Lint"
 def autotype_cli(
         path: Optional[str] = typer.Option(default="",
                                            help=typer.style("the path to the file 🗂", fg=typer.colors.MAGENTA),
